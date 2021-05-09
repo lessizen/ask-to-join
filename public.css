@@ -1,0 +1,127 @@
+@import url("https://use.typekit.net/dfk4oit.css");
+@import url("https://use.typekit.net/dfk4oit.css");
+
+h1 {
+  font-family: helvetica, sans-serif;
+  font-size: 40pt;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  padding-top: 20px;
+  padding-left: 220px;
+}
+
+div {
+  /* font-size: 20pt;
+  font-style: italic;
+  font-family: bodoni, serif;
+  letter-spacing: 0.5px;
+  line-height: 1.6; */
+  font-family: lores-12, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16pt;
+  color: white;
+}
+
+a {
+  text-decoration-color: white;
+}
+
+a:hover{
+  transform: skewX(-5deg);
+  transition-duration: .15s;
+}
+
+.go-to-blue {
+  animation-fill-mode: forwards;
+  animation-name: clrChange;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+.hai_1 {
+  animation-delay: 0s;
+  /* padding-top: 150px; */
+}
+
+.hai_2 {
+  padding: 20px 20px 40px 220px;
+  animation-delay: 2s;
+}
+
+.hai_3 {
+  padding: 20px 20px 40px 220px;
+  animation-delay: 5s;
+}
+
+.hai_4 {
+  padding: 20px 20px 40px 220px;
+  animation-delay: 8s;
+}
+
+.hai_5 {
+  padding: 20px 20px 40px 220px;
+  animation-delay: 11s;
+}
+
+.hai_6 {
+  padding: 20px 20px 40px 220px;
+  animation-delay: 14s;
+}
+
+.hai_7 {
+  padding: 20px 20px 40px 220px;
+  animation-delay: 17s;
+}
+
+.hai_8 {
+  padding: 20px 20px 40px 220px;
+  animation-delay: 20s;
+}
+
+.hai_9 {
+  padding: 20px 20px 40px 220px;
+  animation-delay: 23s;
+}
+
+.hai_10 {
+  padding: 20px 20px 40px 220px;
+  animation-delay: 26s;
+}
+
+.hai_11 {
+  padding: 20px 20px 40px 220px;
+  animation-delay: 29s;
+}
+
+.return2 {
+  font-family: bickham-script-pro-3, sans-serif;
+  font-size: 30pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration-color: white;
+  padding-left: 200px;
+  padding-top: 50px;
+}
+
+a:visited {
+  text-decoration-color: white;
+  color: blue;
+}
+
+a {
+  animation-name: clrChange;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes clrChange {
+  0% {
+    color: white;
+  }
+
+  100% {
+    color: blue;
+  }
+}

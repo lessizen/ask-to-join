@@ -1,0 +1,38 @@
+@import url("https://use.typekit.net/dfk4oit.css");
+
+@font-face {
+  font-family: 'computerfont';
+  src: url('computerfont.ttf') format('truetype');
+  font-weight: 125 950;
+  font-stretch: 75% 125%;
+  font-style: normal;
+
+}
+
+p {
+  font-family: 'computerfont';
+  font-size: 90pt;
+  animation-name: goofy;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
+
+@keyframes goofy {
+  0% {
+    font-stretch: 1%;
+  }
+
+  100% {
+    font-stretch: 125%;
+  }
+}
+
+@keyframes change {
+  0% {
+    font-family: 'computerfont'
+  }
+
+  100% {
+    font-family: lores-12, sans-serif;
+  }
+}

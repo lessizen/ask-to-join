@@ -1,0 +1,357 @@
+@import url("https://use.typekit.net/dfk4oit.css");
+@import url("https://use.typekit.net/dfk4oit.css");
+@import url("https://use.typekit.net/dfk4oit.css");
+@import url("https://use.typekit.net/dfk4oit.css");
+
+@font-face {
+  font-family: 'computerfont';
+  src: url('computerfont.ttf') format('truetype');
+  font-weight: 125 950;
+  font-stretch: 75% 125%;
+  font-style: italic;
+}
+
+.container {
+  width: inherit;
+  height: auto;
+  overflow-y: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+p {
+  font-family: lores-12, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16pt;
+  color: blue;
+}
+
+a {
+  text-decoration-color: white;
+}
+
+.ask {
+  font-size: 30pt;
+  font-family: lores-12, sans-serif;
+  grid-row: 5;
+  grid-column: 3/5;
+  padding-left: 45px;
+}
+
+.ask:hover {
+  transform: skewX(-5deg);
+  transition-duration: .15s;
+}
+
+.load {
+  animation-name: loadIng;
+  animation-delay: 5s;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+}
+
+a:visited {
+  text-decoration-style: underline;
+  text-decoration-color: white;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+  transform: skewX(-5deg);
+  transition-duration: .15s;
+}
+
+.go:link {
+  /* animation-name: fadeIn; */
+  animation-name: clrChange;
+  animation-delay: 0s;
+  animation-duration: 2.5s;
+  animation-iteration-count: 1;
+  text-decoration-color: white;
+  color: black;
+}
+
+/* body of haiku */
+.haiku {
+  padding: 100px 50px 100px 100px;
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+/* source link for community haikus */
+.source {
+  font-family: arial;
+  font-size: 10pt;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+/* set of buttons for wifi: */
+.buttons {
+  grid-column: 3/6;
+  grid-row: 3;
+  padding-top: 50px;
+  padding-left: 105px;
+  animation-name: fadeIn;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+}
+
+/* set of buttons for search results pages: */
+.options {
+  grid-column: 3/6;
+  grid-row: 2;
+  padding-left: 105px;
+  padding-top: 88px;
+  animation-name: fadeIn;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+}
+
+/* private network button */
+.private {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: arial;
+  font-size: 12pt;
+  height: 25px;
+  width: 140px;
+}
+
+/* public network button */
+.public {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: arial;
+  font-size: 12pt;
+  height: 25px;
+  width: 140px;
+}
+
+/* loading ... options */
+.seek {
+  font-family: 'computerfont';
+  font-size: 40pt;
+  font-weight: 300;
+  color: blue;
+  animation-name: goofy;
+  animation-iteration-count: 1;
+  animation-duration: 9s;
+  opacity: 0;
+  transform: skewX(-15deg);
+  padding: 66px 0px 33px 100px;
+  grid-column: 1/6;
+  grid-row: 1;
+}
+
+/* lores title container on search pages */
+.results {
+  grid-column: 2/5;
+  grid-row: 2;
+  padding-left: 190px;
+}
+
+/*  lores titles: */
+.title1:hover {
+  transform: skewX(-5deg);
+  transition-duration: .15s;
+}
+
+.title1 {
+  padding-left: 100px;
+  animation-name: fadeIn;
+  animation-iteration-count: 1;
+  animation-duration: 3s;
+}
+
+.title2 {
+  padding-left: 100px;
+  animation-name: fadeIn;
+  animation-iteration-count: 1;
+  animation-duration: 6s;
+}
+
+.title2:hover {
+  transform: skewX(-5deg);
+  transition-duration: .15s;
+}
+
+.title3 {
+  padding-left: 100px;
+  animation-name: fadeIn;
+  animation-iteration-count: 1;
+  animation-duration: 9s;
+}
+
+.title3:hover {
+  transform: skewX(-5deg);
+  transition-duration: .15s;
+}
+
+.title4 {
+  padding-left: 100px;
+  animation-name: fadeIn;
+  animation-iteration-count: 1;
+  animation-duration: 12s;
+}
+
+.title4:hover {
+  transform: skewX(-5deg);
+  transition-duration: .15s;
+}
+
+/* return on public haiku page */
+.return {
+  padding-bottom: 100px;
+  font-family: bickham-script-pro-3, sans-serif;
+  font-size: 30pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration-color: white;
+}
+
+/* return on other pages */
+.return2 {
+  font-family: arial;
+  font-size: 30pt;
+  font-weight: 400;
+  font-style: normal;
+  color: blue;
+  /* text-decoration-color: white; */
+  grid-row: 4;
+  grid-column: 1/7;
+  padding: 66px 0px 0px 100px;
+  /* animation-name: Appear;
+  animation-duration:10s; */
+}
+
+@keyframes Appear {
+  0% {
+    opacity: 0;
+  }
+
+  90% {
+    opacity: 0;
+  }
+
+  100 {
+    opacity: 1;
+  }
+}
+
+@keyframes loadIng {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes clrChange {
+  0% {
+    color: white;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  100% {
+    color: black;
+  }
+}
+
+@keyframes goofy {
+  0% {
+    font-weight: 1;
+  }
+
+  1% {
+    opacity: 0;
+  }
+
+  3% {
+    opacity: 1;
+  }
+
+  8% {
+    font-weight: 300;
+  }
+
+  16% {
+    font-weight: 1;
+  }
+
+  24% {
+    font-weight: 300;
+  }
+
+  32% {
+    font-weight: 1;
+  }
+
+  40% {
+    font-weight: 300;
+  }
+
+  48% {
+    font-weight: 1;
+  }
+
+  56% {
+    font-weight: 300;
+  }
+
+  64% {
+    font-weight: 1;
+  }
+
+  72% {
+    font-weight: 300;
+  }
+
+  80% {
+    font-weight: 1;
+  }
+
+  88% {
+    font-weight: 300;
+  }
+
+  97% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
