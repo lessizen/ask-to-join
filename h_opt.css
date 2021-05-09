@@ -1,0 +1,75 @@
+@import url("https://use.typekit.net/dfk4oit.css");
+
+body {
+  margin: 0;
+}
+
+p {
+  font-family: arial;
+  font-size: 80pt;
+}
+
+a:visited {
+  text-decoration-style: underline;
+  text-decoration-color: white;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+.container {
+  width: inherit;
+  height: auto;
+  overflow-y: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.results {
+  grid-column: 1/7;
+  grid-row-start: 1;
+  padding-left: 100px;
+}
+
+.story1 {
+  font-family: bickham-script-pro-3, sans-serif;
+  font-size: 130pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration-color: white;
+  grid-row: 1/2;
+  grid-column: 1/6;
+  padding-left: 100px;
+}
+
+.story2 {
+  font-family: bickham-script-pro-3, sans-serif;
+  font-size: 100pt;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration-color: white;
+  grid-row: 2/3;
+  grid-column: 1/6;
+  padding-left: 100px;
+}
+
+/* return on other pages */
+.return2 {
+  font-family: arial;
+  font-size: 30pt;
+  font-weight: 400;
+  font-style: normal;
+  color: blue;
+  /* text-decoration-color: white; */
+  grid-row: 3;
+  grid-column: 1/7;
+  padding: 66px 0px 20px 20px;
+  /* animation-name: Appear;
+  animation-duration:10s; */
+}
+
+.smaller {
+  font-size: 60pt;
+}
